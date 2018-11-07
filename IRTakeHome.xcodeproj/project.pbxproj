@@ -7,25 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA3E25EA2192683A002ABB59 /* EBook.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3E25E92192683A002ABB59 /* EBook.m */; };
+		CA3E25EE2192AC79002ABB59 /* EBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3E25ED2192AC79002ABB59 /* EBookViewController.m */; };
 		CA56CBB12192239C001E18B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA56CBB02192239C001E18B7 /* AppDelegate.m */; };
-		CA56CBB42192239D001E18B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA56CBB32192239D001E18B7 /* ViewController.m */; };
-		CA56CBB72192239D001E18B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA56CBB52192239D001E18B7 /* Main.storyboard */; };
 		CA56CBB9219223A1001E18B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA56CBB8219223A1001E18B7 /* Assets.xcassets */; };
 		CA56CBBC219223A1001E18B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA56CBBA219223A1001E18B7 /* LaunchScreen.storyboard */; };
 		CA56CBBF219223A1001E18B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA56CBBE219223A1001E18B7 /* main.m */; };
+		CA56CBCE21923C14001E18B7 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA56CBCD21923C14001E18B7 /* SearchViewController.m */; };
+		CA56CBD7219259AD001E18B7 /* BookService.m in Sources */ = {isa = PBXBuildFile; fileRef = CA56CBD6219259AD001E18B7 /* BookService.m */; };
+		CA56CBDA219260EF001E18B7 /* ErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CA56CBD9219260EF001E18B7 /* ErrorHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA3E25E82192683A002ABB59 /* EBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBook.h; sourceTree = "<group>"; };
+		CA3E25E92192683A002ABB59 /* EBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBook.m; sourceTree = "<group>"; };
+		CA3E25EC2192AC79002ABB59 /* EBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBookViewController.h; sourceTree = "<group>"; };
+		CA3E25ED2192AC79002ABB59 /* EBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBookViewController.m; sourceTree = "<group>"; };
 		CA56CBAC2192239C001E18B7 /* IRTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA56CBAF2192239C001E18B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA56CBB02192239C001E18B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA56CBB22192239D001E18B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CA56CBB32192239D001E18B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CA56CBB62192239D001E18B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA56CBB8219223A1001E18B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA56CBBB219223A1001E18B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA56CBBD219223A1001E18B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA56CBBE219223A1001E18B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA56CBCC21923C14001E18B7 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		CA56CBCD21923C14001E18B7 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		CA56CBD0219252A5001E18B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA56CBD5219259AD001E18B7 /* BookService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookService.h; sourceTree = "<group>"; };
+		CA56CBD6219259AD001E18B7 /* BookService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookService.m; sourceTree = "<group>"; };
+		CA56CBD8219260EF001E18B7 /* ErrorHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ErrorHelper.h; sourceTree = "<group>"; };
+		CA56CBD9219260EF001E18B7 /* ErrorHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ErrorHelper.m; sourceTree = "<group>"; };
+		CA56CBDC21926155001E18B7 /* IRErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRErrors.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +50,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA3E25EB2192683E002ABB59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E25E82192683A002ABB59 /* EBook.h */,
+				CA3E25E92192683A002ABB59 /* EBook.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CA3E25F22192AFCA002ABB59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CA56CBA32192239C001E18B7 = {
 			isa = PBXGroup;
 			children = (
@@ -58,17 +85,57 @@
 		CA56CBAE2192239C001E18B7 /* IRTakeHome */ = {
 			isa = PBXGroup;
 			children = (
-				CA56CBAF2192239C001E18B7 /* AppDelegate.h */,
-				CA56CBB02192239C001E18B7 /* AppDelegate.m */,
-				CA56CBB22192239D001E18B7 /* ViewController.h */,
-				CA56CBB32192239D001E18B7 /* ViewController.m */,
-				CA56CBB52192239D001E18B7 /* Main.storyboard */,
+				CA56CBCF21925274001E18B7 /* AppDelegate */,
+				CA56CBD4219253F2001E18B7 /* Services */,
+				CA3E25EB2192683E002ABB59 /* Models */,
+				CA3E25F22192AFCA002ABB59 /* Views */,
+				CA56CBC8219224F0001E18B7 /* View Controllers */,
 				CA56CBB8219223A1001E18B7 /* Assets.xcassets */,
 				CA56CBBA219223A1001E18B7 /* LaunchScreen.storyboard */,
 				CA56CBBD219223A1001E18B7 /* Info.plist */,
 				CA56CBBE219223A1001E18B7 /* main.m */,
+				CA56CBDB219260F4001E18B7 /* Supporting Files */,
 			);
 			path = IRTakeHome;
+			sourceTree = "<group>";
+		};
+		CA56CBC8219224F0001E18B7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA56CBCC21923C14001E18B7 /* SearchViewController.h */,
+				CA56CBCD21923C14001E18B7 /* SearchViewController.m */,
+				CA3E25EC2192AC79002ABB59 /* EBookViewController.h */,
+				CA3E25ED2192AC79002ABB59 /* EBookViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CA56CBCF21925274001E18B7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CA56CBD0219252A5001E18B7 /* AppDelegate.h */,
+				CA56CBB02192239C001E18B7 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CA56CBD4219253F2001E18B7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CA56CBD5219259AD001E18B7 /* BookService.h */,
+				CA56CBD6219259AD001E18B7 /* BookService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CA56CBDB219260F4001E18B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA56CBDC21926155001E18B7 /* IRErrors.h */,
+				CA56CBD8219260EF001E18B7 /* ErrorHelper.h */,
+				CA56CBD9219260EF001E18B7 /* ErrorHelper.m */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +197,6 @@
 			files = (
 				CA56CBBC219223A1001E18B7 /* LaunchScreen.storyboard in Resources */,
 				CA56CBB9219223A1001E18B7 /* Assets.xcassets in Resources */,
-				CA56CBB72192239D001E18B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA56CBB42192239D001E18B7 /* ViewController.m in Sources */,
+				CA3E25EA2192683A002ABB59 /* EBook.m in Sources */,
+				CA56CBD7219259AD001E18B7 /* BookService.m in Sources */,
 				CA56CBBF219223A1001E18B7 /* main.m in Sources */,
+				CA56CBCE21923C14001E18B7 /* SearchViewController.m in Sources */,
+				CA56CBDA219260EF001E18B7 /* ErrorHelper.m in Sources */,
+				CA3E25EE2192AC79002ABB59 /* EBookViewController.m in Sources */,
 				CA56CBB12192239C001E18B7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,14 +220,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CA56CBB52192239D001E18B7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA56CBB62192239D001E18B7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CA56CBBA219223A1001E18B7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +356,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ocwang.IRTakeHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -311,7 +373,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ocwang.IRTakeHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
