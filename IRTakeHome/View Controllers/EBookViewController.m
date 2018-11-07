@@ -64,28 +64,28 @@
     [super viewDidLayoutSubviews];
     
     if (!self.didSetupConstraints) {
-        CGFloat imageInset = 50;
-        CGFloat topInset = self.view.safeAreaInsets.top + imageInset;
+        CGFloat imageInset = 110;
+        CGFloat topInset = self.view.safeAreaInsets.top + 35;
         [self.imageView.topAnchor constraintEqualToAnchor:self.view.topAnchor constant: topInset].active = YES;
         [self.imageView.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor constant:imageInset].active = YES;
         [self.imageView.trailingAnchor constraintEqualToAnchor:self.view.trailingAnchor constant:-imageInset].active = YES;
         [self.imageView.heightAnchor constraintEqualToAnchor:self.imageView.widthAnchor multiplier:1].active = YES;
         
         [self.bookTitleLabel.topAnchor constraintEqualToAnchor:self.imageView.bottomAnchor constant:35].active = YES;
-        [self.bookTitleLabel.leadingAnchor constraintEqualToAnchor:self.imageView.leadingAnchor].active = YES;
-        [self.bookTitleLabel.trailingAnchor constraintEqualToAnchor:self.imageView.trailingAnchor].active = YES;
+        [self.bookTitleLabel.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor constant:35].active = YES;
+        [self.bookTitleLabel.trailingAnchor constraintEqualToAnchor:self.view.trailingAnchor constant:-35].active = YES;
         
         [self.authorLabel.topAnchor constraintEqualToAnchor:self.bookTitleLabel.bottomAnchor constant:15].active = YES;
-        [self.authorLabel.leadingAnchor constraintEqualToAnchor:self.imageView.leadingAnchor].active = YES;
-        [self.authorLabel.trailingAnchor constraintEqualToAnchor:self.imageView.trailingAnchor].active = YES;
+        [self.authorLabel.leadingAnchor constraintEqualToAnchor:self.bookTitleLabel.leadingAnchor].active = YES;
+        [self.authorLabel.trailingAnchor constraintEqualToAnchor:self.bookTitleLabel.trailingAnchor].active = YES;
         
         [self.summaryLabel.topAnchor constraintEqualToAnchor:self.authorLabel.bottomAnchor constant:15].active = YES;
-        [self.summaryLabel.leadingAnchor constraintEqualToAnchor:self.imageView.leadingAnchor].active = YES;
-        [self.summaryLabel.trailingAnchor constraintEqualToAnchor:self.imageView.trailingAnchor].active = YES;
+        [self.summaryLabel.leadingAnchor constraintEqualToAnchor:self.bookTitleLabel.leadingAnchor].active = YES;
+        [self.summaryLabel.trailingAnchor constraintEqualToAnchor:self.bookTitleLabel.trailingAnchor].active = YES;
         
         [self.visitButton.topAnchor constraintGreaterThanOrEqualToAnchor:self.summaryLabel.bottomAnchor constant:35].active = YES;
-        [self.visitButton.leadingAnchor constraintEqualToAnchor:self.imageView.leadingAnchor].active = YES;
-        [self.visitButton.trailingAnchor constraintEqualToAnchor:self.imageView.trailingAnchor].active = YES;
+        [self.visitButton.leadingAnchor constraintEqualToAnchor:self.bookTitleLabel.leadingAnchor].active = YES;
+        [self.visitButton.trailingAnchor constraintEqualToAnchor:self.bookTitleLabel.trailingAnchor].active = YES;
         CGFloat bottomInset = self.view.safeAreaInsets.bottom + 35;
         [self.visitButton.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor constant:-bottomInset].active = YES;
         [self.visitButton.heightAnchor constraintEqualToConstant:50].active = YES;

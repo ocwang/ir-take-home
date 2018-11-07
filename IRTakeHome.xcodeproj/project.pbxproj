@@ -91,9 +91,6 @@
 				CA3E25F22192AFCA002ABB59 /* Views */,
 				CA56CBC8219224F0001E18B7 /* View Controllers */,
 				CA56CBB8219223A1001E18B7 /* Assets.xcassets */,
-				CA56CBBA219223A1001E18B7 /* LaunchScreen.storyboard */,
-				CA56CBBD219223A1001E18B7 /* Info.plist */,
-				CA56CBBE219223A1001E18B7 /* main.m */,
 				CA56CBDB219260F4001E18B7 /* Supporting Files */,
 			);
 			path = IRTakeHome;
@@ -131,6 +128,9 @@
 		CA56CBDB219260F4001E18B7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CA56CBBA219223A1001E18B7 /* LaunchScreen.storyboard */,
+				CA56CBBE219223A1001E18B7 /* main.m */,
+				CA56CBBD219223A1001E18B7 /* Info.plist */,
 				CA56CBDC21926155001E18B7 /* IRErrors.h */,
 				CA56CBD8219260EF001E18B7 /* ErrorHelper.h */,
 				CA56CBD9219260EF001E18B7 /* ErrorHelper.m */,
@@ -349,7 +349,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QXSA84SJDA;
-				INFOPLIST_FILE = IRTakeHome/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/IRTakeHome/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -366,7 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QXSA84SJDA;
-				INFOPLIST_FILE = IRTakeHome/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/IRTakeHome/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

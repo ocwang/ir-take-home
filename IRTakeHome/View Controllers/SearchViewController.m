@@ -55,6 +55,11 @@
     self.definesPresentationContext = YES;
 }
 
+- (void)resetSearchResults {
+    self.searchResults = @[];
+    [self.tableView reloadData];
+}
+
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -78,6 +83,11 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:false];
     
+    if (indexPath.row >= self.searchResults.count) {
+        [self resetSearchResults];
+        return;
+    }
+    
     EBook *eBook = [self.searchResults objectAtIndex:indexPath.row];
     EBookViewController *viewController = [[EBookViewController alloc] initWithEBook:eBook];
     [self.navigationController pushViewController:viewController animated:YES];
@@ -89,9 +99,7 @@
     NSString *query = searchController.searchBar.text;
     
     if (query.length == 0) {
-        // reset search results
-        self.searchResults = @[];
-        [self.tableView reloadData];
+        [self resetSearchResults];
         return;
     }
     
@@ -107,9 +115,8 @@
                                      return;
                                  }
                                  
-                                 strongSelf.searchResults = eBooks;
-                                 
                                  dispatch_async(dispatch_get_main_queue(), ^{
+                                     strongSelf.searchResults = eBooks;
                                      [strongSelf.tableView reloadData];
                                  });
                              }];
