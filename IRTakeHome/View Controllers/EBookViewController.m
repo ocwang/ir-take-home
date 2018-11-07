@@ -60,9 +60,7 @@
     [self loadBookImage];
 }
 
-- (void)viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
-    
+- (void)updateViewConstraints {
     if (!self.didSetupConstraints) {
         CGFloat imageInset = 110;
         CGFloat topInset = self.view.safeAreaInsets.top + 35;
@@ -92,6 +90,8 @@
         
         self.didSetupConstraints = YES;
     }
+    
+    [super updateViewConstraints];
 }
 
 #pragma mark - Target Actions
