@@ -59,13 +59,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		CA3E25F22192AFCA002ABB59 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		CA56CBA32192239C001E18B7 = {
 			isa = PBXGroup;
 			children = (
@@ -88,7 +81,6 @@
 				CA56CBCF21925274001E18B7 /* AppDelegate */,
 				CA56CBD4219253F2001E18B7 /* Services */,
 				CA3E25EB2192683E002ABB59 /* Models */,
-				CA3E25F22192AFCA002ABB59 /* Views */,
 				CA56CBC8219224F0001E18B7 /* View Controllers */,
 				CA56CBB8219223A1001E18B7 /* Assets.xcassets */,
 				CA56CBDB219260F4001E18B7 /* Supporting Files */,
